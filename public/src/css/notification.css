@@ -1,0 +1,36 @@
+  .open>.dropdown-menu
+  {
+  background-color: white;
+  font-size: 15px;
+  width: 250px;
+  margin-top: 20px;
+  height: 250px;
+  overflow: scroll;
+  overflow-x: hidden
+  }
+  .dropdown-menu ol li{
+    margin-left: 0px
+
+  }
+  
+
+  
+   .notification ol li{
+    line-height: 2em;
+    font-weight: bold;
+    font-family: tahoma;
+    font-size: 12px
+
+  }
+  .notification ol li .Refuse
+  {
+    color: red
+  }
+ 
+ .dropdown-menu .notificationlink{
+
+    color: white;
+    background-color: black;
+  }
+  
+

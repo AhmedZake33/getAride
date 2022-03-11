@@ -1,0 +1,577 @@
+*{
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: #49bda6;
+	width: 100%;
+	height: 75px;
+
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+}
+.navbar{
+
+	margin-bottom: 0px;
+	position: fixed;
+}
+.links ul{
+	float: right;
+	margin-top: 25px;
+}
+#profile{border: 2px solid #ffd74d;
+    margin-right: 25px;
+    border-radius: 18px;
+}
+.links ul li{
+
+	display: inline-block;
+}
+
+
+.links li a {
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px;
+	border-radius: 18px;
+	transition: 0.5s;
+}
+
+#menu{display: none;}
+
+@media (max-width: 992px){
+.links ul {
+   
+    margin-top: 25px;
+    padding: 0px;
+}
+
+.links li a {
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;}
+}
+
+.links li a:hover{
+	color: #243952;
+	background-color: #ffd74d;
+}
+
+
+
+
+.navbar-brand img{
+	width: 155px;
+	height: 55px;
+}
+
+#menu span {
+    border: 3px solid white;
+    margin-top: 3px;
+    width: 35px;
+    border-radius: 25px;
+}
+#menu a{
+display: grid;
+    border: 1px solid #ffd74d;
+    border-radius: 11px;}
+
+
+
+
+h1{
+    margin: 0px;
+}
+
+
+@media (max-width: 400px){
+
+	.navbar-brand img {
+    width: 120px;
+}
+
+  
+}
+
+@media(max-width: 765px){
+	.hide-link{
+		display: none;
+	}
+#menu{
+	display: block;
+}
+
+
+.links ul {
+    margin-top: 15px;
+}
+
+}
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #4DCF9B;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #49bda6;
+  outline: 1px solid #49bda6;
+}
+footer{
+
+	background-color: #ffd74d;
+	height: auto;
+	padding-bottom: 20px;
+	position: fixed;
+	
+	    bottom: 0pt;
+
+	left: 0;
+	right: 0;
+
+}
+footer h6{
+	
+	color: white;
+	font-size: 15px;
+	}
+@media (max-width: 346px){
+	footer h6{
+		margin: 0px;
+	}
+}
+footer .input-group{
+	padding-top: 20px;
+}
+
+.btn-secondary{
+
+	background-color: #1cb39b;
+	color: white;
+}
+
+
+
+.trip{
+
+	
+	width: 100%;
+	height: 100%;
+
+}
+
+label{
+	display: block;
+	margin-left: 2px;
+	width: 100%;
+}
+
+.but a{
+	width: 83%;
+    color: white;
+  
+    padding: 25px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.5s;
+    background: linear-gradient(to right,#4DCF9B, #00A39C);
+
+}
+
+.but a:hover{
+	background: linear-gradient(to right,#ffd74d, #ffd74d);
+	transition: 0.5s;
+
+}
+.inpu{
+	width: 100%;
+	height: 35px;
+	font-size: 20px;
+	outline: none;
+	border-radius: 25px;
+	color: #243952;
+	border: 2px solid #337c6e;
+	text-align: center;
+	text-overflow: ellipsis;
+	margin-bottom: 10px;
+}
+
+.search_form{
+	margin-top: 15%;
+	padding-bottom: 14%;
+
+}
+
+#search_trip{
+
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	background: linear-gradient(to right,#4DCF9B, #00A39C);
+	border-radius: 8px;
+	outline: none;
+	width: 160px;
+	font-size: 20px;
+}
+
+.search_button a:hover{
+background: linear-gradient(to left,#4DCF9B, #4DCF9B);
+transition: 0.8s;}
+
+.search_button{
+
+
+   
+    margin-bottom: 100px;
+}
+.bb{
+	margin-top: 50px;
+	display: none;
+}
+.apper{display: none;}
+.frem{
+	display: block;
+
+	
+}
+
+.search_form h2 {
+	font-size: 35px;
+	    color: #02493c;
+
+}
+.small_nav ul{
+	list-style: none;
+	text-align: center;
+}
+.small_nav ul li{
+display: block;
+text-align: center;
+}
+
+
+.small_nav ul li a{
+display: block;
+font-size: 15px;
+color: white;
+margin: 10px 0px;}
+
+
+.small_nav{
+	width: 100%;
+	height: 100%;
+	background-color: #4DCF9B;
+	padding: 15px;
+	
+}
+
+.img_background{
+
+	background-image: url(car.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: top;
+	
+}
+.offer{
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+	padding: 25px 0px;
+	
+}
+
+.offer input{
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	color: #054752;
+	font-size: 20px;
+	border: 1px solid #054752;
+    text-align: center;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    outline: none;
+}
+.offer label {margin-top: 10px;}
+.offer h2 {font-size: 35px;
+    color: #02493c;
+margin: 40px 0px;}
+
+.btn-block{
+	margin: 15px 0px;
+	 font-weight: bold;
+	  border-radius: 25px;
+	   background: linear-gradient(to right,#4DCF9B, #00A39C);
+	    outline: none;
+	     color: white; 
+	 font-size: 20px; border: 25px;
+
+    transition: 0.5s;
+}
+.btn-block:hover{
+    background: linear-gradient(to right,#ffd74d, #ffd74d);
+    transition: 0.5s;
+outline: none;}
+
+
+
+
+    .sidenav {
+    	top: 70px;
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    overflow: scroll;
+    background-color: #0d5c4ced;
+    transition: 0.5s;
+   
+}
+
+.scroll{
+	overflow: hidden;
+}
+#profile2{
+	    border: 1px solid #ffd74d;
+	    margin: 5px 30px;
+    border-radius: 18px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+   
+    color: white;
+	
+	border-radius: 18px;
+	transition: 0.5s;
+}
+#close{font-size: 35px;
+margin: 10px 0px;}
+.sidenav a:hover {
+   color: #243952;
+	font-size: 25px;
+	background-color: #ffd74d;
+	transition: 0.5s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    
+}
+
+.slide_menu {
+	list-style: none;
+	margin-bottom: 70px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+
+.trip_post{
+	background-color: #f0f3f7;
+	width: 100%;
+	height:100%;
+	margin: 50px 0px ;
+	border:1px solid #cccccc;
+	border-radius: 8px;
+	transition: 0.5s;
+}
+
+.trip_body{
+	padding: 5px 8%;
+	display: none;
+	height: 100%
+
+}
+.img_profile{
+	margin-top: 15px;
+	width: 100px;
+	height: 100px;
+	
+	background-image: url(mans.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.rate{
+	display: inline-flex;
+}
+.rate p{
+	    margin-left: 5px;
+    /* margin-bottom: 2px; */
+    font-size: 20px;
+    font-weight: bold;
+    line-height: .5;
+}
+.first_name h3 a{font-size: 20px;
+margin-top: 10px;
+color: #054752;}
+
+.info::after{
+	display: inline-block;
+	content: '';
+	height: 200px;
+	width: 1px;
+	border-right: 1px solid #00000029;
+	position: absolute;
+	top: 15px;
+	left: 100%;
+}
+
+
+
+.trip_road p{
+	font-size: 15px;
+	color: #1a4752db;
+}
+
+
+.checked {
+    color: orange;
+}
+.chat{
+	padding: 5px 5px;
+	background-color: #00AFF5;
+		color: white;
+		font-size: 18px;
+		border-radius: 8px;
+}
+
+.book{
+	margin: 10px 0px;
+	padding: 5px 60px;
+	background-color: #00AFF5;
+		color: white;
+		font-size: 20px;
+		border-radius: 8px;
+}
+pre{
+	background-color: white;
+	font-size: 15px;
+}
+
+.price{    
+  position: absolute;
+    top: 14px;
+    right: -15px;
+    float: right;
+    background-color: #49bda6;
+    padding: 5px 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.price::after{
+
+	 content: " ";
+    display: block;
+    border-style: solid;
+    border-width: 0px 15px 10px 0px;
+    border-right-color: transparent;
+    border-bottom-color: #026a55;
+    float: right;
+    position: relative;
+    top: -14px;
+    left: 2px;
+    z-index: -1;
+
+}
+.read_more{
+	margin-top: 0px;
+	color: #0a1b72;
+	font-size: 18px;
+	display: none;
+
+}
+
+@media(max-width: 991px)
+{
+	.trip_body{
+	padding: 5px 3%;
+}
+.price{
+	 font-size: 16px;
+}
+}
+
+.trip_post h6{
+font-weight: bold;
+color: #262c38;
+font-size: 18px;
+
+}
+
+.trip_post h5{
+color: #798381;
+font-size: 15px;
+
+}
+#details{
+	margin-right: 30px;
+}
+
+@media(max-width: 767px){
+
+	.info::after {
+   	    display: inline-block;
+    content: '';
+    height: 1px;
+    width: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border-bottom: 1px solid #00000029;
+   }
+   .user_name{
+   	text-align: center;
+   }
+   #details{
+	margin-right: 0px;
+}
+
+.trip_post{
+	overflow: hidden;
+	height: 490px;
+	transition: 0.8s;
+}
+.read_more{
+	margin-top: 0px;
+	color: #0a1b72;
+	font-size: 18px;
+	display: block;
+
+}
+}
+
+.apper_post{
+	display: block;
+}
+

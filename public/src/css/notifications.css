@@ -1,0 +1,178 @@
+.dropdown-menu h6{
+background-color: white;
+color: red;
+text-align: center;
+}
+.dropdown-menu h6 a{
+color: #0b416f;
+}
+
+.dropdown-menu h6 a:hover{
+background-color: white
+}
+
+.dropdown-menu ol li {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	height: 80px;
+	line-height: 2em;
+	background-color: rgb(62, 198, 155);
+	margin-bottom: 10px;
+	margin-left: -40px;
+	padding-left: 7px;
+	padding-right: 7px;
+	color: white;
+}
+.dropdown-menu ol li #chating{
+
+	height: 25px;
+	width: 52px;
+	font-size: 13px;
+	padding: 2px;
+	overflow: hidden;
+
+
+}
+.dropdown-menu ol li #chating:hover{
+
+	height: 25px;
+	width: 52px;
+	font-size: 13px;
+	padding: 2px;
+	overflow: hidden;
+background-color: #337ab7;
+color: white;
+
+}
+
+
+
+.dropdown-menu ol li .notificationlink {
+	padding: 5px 7px;
+	border-radius: 0px;
+	padding: 3px;
+	background-color: #0f8e63
+}
+.dropdown-menu ol li .name{
+	font-size: 12px;
+	padding: 0px;
+	background-color: none
+}
+.dropdown-menu ol li img{
+	margin-right: 3px
+}
+.dropdown-menu ol li .name:hover
+{
+	font-style: underline;
+	background-color: rgb(62, 198, 155);
+	transition:none;
+	color: white
+}
+.dropdown-menu ol li .namerefuse{
+	color: red;
+	font-size: 12px;
+	padding: 0px;
+}
+.dropdown-menu ol li .namerefuse:hover{
+	color: red;
+	background-color: rgb(62, 198, 155)
+}
+
+.dropdown-menu ol li .nameaccept{
+	color: green;
+	font-size: 12px;
+	padding: 0px;
+}
+
+.dropdown-menu ol li .nameaccept:hover{
+	color: green;
+		background-color: rgb(62, 198, 155)
+
+
+}
+.dropdown-menu li  #notificationaccept {
+	
+}
+@media (max-width: 400px){
+
+
+
+  .open>.dropdown-menu
+  {
+  background-color: white;
+  height: 96px;
+  overflow: scroll;
+  width: 100%
+  }
+
+
+.dropdown-menu h6{
+background-color: white;
+color: red;
+text-align: center;
+}
+.dropdown-menu h6 a{
+color: #0b416f;
+}
+
+.dropdown-menu h6 a:hover{
+background-color: white
+}
+
+
+
+
+.dropdown-menu ol li {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	height: 80px;
+	background-color: rgb(62, 198, 155);
+	color: white;
+}
+
+.dropdown-menu ol li .notificationlink {
+	padding: 5px 7px;
+	border-radius: 0px;
+	padding: 3px;
+	background-color: #0f8e63
+}
+.dropdown-menu ol li .name{
+	font-size: 9px;
+	padding: 0px;
+	background-color: none
+}
+.dropdown-menu ol li img{
+	margin-right: 3px
+}
+.dropdown-menu ol li .name:hover
+{
+	font-style: underline;
+	background-color: rgb(62, 198, 155);
+	transition:none;
+	color: white
+}
+.dropdown-menu ol li .namerefuse{
+	color: red;
+	font-size: 7px;
+	padding: 0px;
+}
+.dropdown-menu ol li .namerefuse:hover{
+	color: red;
+	background-color: rgb(62, 198, 155)
+}
+
+.dropdown-menu ol li .nameaccept{
+	color: green;
+	font-size: 7px;
+	padding: 0px;
+}
+
+.dropdown-menu ol li .nameaccept:hover{
+	color: green;
+		background-color: rgb(62, 198, 155)
+
+
+}
+
+
+}

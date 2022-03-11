@@ -1,0 +1,265 @@
+*{box-sizing: border-box;} 
+body{background-color: #f5f3ee;
+
+}
+
+nav {
+
+width: 100%;
+background-color: #F5F3EE;}
+
+
+.navbar-brand img{
+
+
+	position: absolute;
+    top: 5px;
+    width: 180px;
+    height: 75px;
+}
+
+
+
+.view{
+
+	background-color: #4A96AD;
+	height:200px;
+	border-radius: 10px;
+	width: 100%;
+margin-top: 25px;
+
+}
+.view a{
+	position: relative;
+	top: 80px;
+
+
+
+	color: white;
+	font-size: 35px;
+	text-align: center;
+}
+@media (max-width: 445px) { 
+
+	.view a{font-size: 20px;}
+}
+
+@media (min-width: 445px) { 
+	.view a{font-size: 30px;}
+
+}
+@media (min-width: 588px) { 
+	.view a{font-size: 35px;}
+
+}
+
+.view a:hover{
+	color: #7d1935;
+	text-decoration: none;
+}
+.city  {margin-top: 20px;
+margin-left: 5px;
+}
+#cities{
+	font-size: 15px;
+	background-color: #F5F3EE;
+	border: 2px solid #4A96AD;
+	border-radius: 25px;
+	height: 35px;
+	color: #7d1935;
+	text-align: center;
+	    width: 100%;
+	    outline: none;
+
+}
+
+label {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+color:#56a6be;
+margin-left: 10px;
+font-size: 15px; }
+
+#search_trip {
+display: none;
+margin-top: 25px;}
+.search a{
+	color: white;
+	padding: 10px;
+	font-size: 25px;
+	background-color: #4A96AD;
+border-radius: 8px;
+}
+.search{margin-top: 80px;
+	padding-top: 60px;
+	margin-bottom:100px;
+}
+
+
+.trip{width: 90%;
+background-color: #dfdfdf;
+
+margin-bottom: 15px;
+border: 1px solid #9fcbd8;
+border-radius: 10px;
+margin-left: 5%;
+visibility: hidden;}
+
+.circl{
+
+  background-image: url(man.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    height: 80px;
+width: 80px;
+border-radius: 100%;
+margin: 8px;
+
+}
+
+.circl::after{content: "JohnathanDeo ";
+
+font-size: 15px;
+font-weight: bold;
+margin-left: 90px;
+line-height: 60px;
+
+}
+.trip_body{
+	font-size: 15px;
+font-weight: bold;
+line-height: 60px;
+color: #7d1935;
+margin-top: 25px;
+}
+
+
+.price{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+.book{
+
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #1b98be;
+	color: white;
+	margin-bottom: 20px;
+}
+.book:hover{
+
+	
+	background-color: #325e6c;
+	
+}
+.book a{
+	color: white;
+}
+
+@media (max-width: 991px) { 
+	.trip {
+    width: 100%;
+    
+    margin-left: 0px;
+}
+
+}
+
+
+
+.menu  {float: right;
+display: inline-block;
+	margin-top: 25px;
+}
+.link{float: right;}
+.menu li{
+
+	display: inline;
+
+
+	color: #a91640;
+	font-size: 20px;
+	margin-top: 10px;
+	margin: 10px;
+	background: transparent;
+	outline: none;}
+
+	.menu li a {color:#a91640; }
+
+	.menu li a:hover{
+	background-color: transparent;
+	color: #4A96AD;
+}
+
+
+
+
+
+
+.sidenav {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: -60px;
+    right: 0;
+    overflow: scroll;
+    background-color: #3a0111;
+    transition: 0.8s;
+   
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #82d1ed;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    
+}
+
+
+
+@media (max-width: 768px){
+	.menu{visibility: hidden;}
+}
+@media (max-width: 768px){
+	#menu_bar{visibility: visible;}
+}
+@media (min-width: 768px){
+	#menu_bar{visibility: hidden;}
+}
+
+#menu_bar{font-size: 30px;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 25px}
+    .close6 a{    margin-right: 44%;
+}
+.slide_menu {
+	list-style: none;
+	margin-bottom: 70px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.nav>li{
+	font-size:20px 
+}

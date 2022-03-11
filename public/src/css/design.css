@@ -1,0 +1,125 @@
+#particles-js{}
+
+  *{box-sizing: border-box;}
+
+
+.sign_in{width: 450px;
+    height:400px;
+        position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+background-color: white;
+
+margin-top: 12%; 
+
+border-radius: 25px;
+border: 5px solid #ffe4e5;
+border-color: #ffe4e5;
+box-shadow: 7px 7px  15px #d96970,
+-7px -7px  15px #d96970;
+
+}
+
+.sign_in img{
+width: 100%;
+height: 25%;
+padding-top: 15px;
+}
+.sign_in h1{
+
+	color: #914d51;
+	font-size: 20px;
+	margin-top: 35px;
+}
+
+
+.sign_in h1 a{
+
+	color: #914d51;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: ;
+}
+.signin{padding: 10px;}
+
+.signin .email , .signin .password{
+	margin-bottom: 15px;
+	color: #b61924;
+	border: 1px solid #e3a0a4;
+	text-align: center;
+}
+.signin a{
+	background-color: #b61924;
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 15px;
+}
+
+
+@media (max-width: 500px){
+.sign_in{width: 350px;
+    height:400px;
+margin-top: 25%;}
+
+#sign_up{height: 425px;}
+
+
+}
+
+@media (max-width: 375px){
+.sign_in{width: 300px;
+    height:400px;}
+
+
+}
+
+ .close svg{
+ 	color: #b61924;
+ 	opacity: 1;
+	
+
+}
+.close {
+	margin-top: 10px;
+margin-right: 48%;
+color: #b61924;
+
+
+
+
+}
+.close:hover{
+	opacity: 1;
+}
+#sign_up{
+
+	visibility: hidden;
+	height: 425px;
+}
+
+#name{
+	width: 50%;
+	margin: 3px;
+
+}
+.fname{
+	display: inline-flex;
+	width: 100%;
+	margin-bottom:10px;
+
+
+}
+#exampleCheck1{color: #b61924;}
+
+label{color: #b61924;
+font-size: 14px;
+margin-left: 8px;}
+.yourid{
+	display: inline-flex;
+}

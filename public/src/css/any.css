@@ -1,0 +1,238 @@
+*{
+	box-sizing: border-box;
+}
+header{
+
+	min-width: 100%;
+	background-size: cover;
+	background-image: url(1d-carpool-karaoke.png);
+	min-height:100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	background-position:  top ;
+	background-attachment: fixed;
+}
+.navbar-brand img{
+width: 200px;
+height: 55px;
+}
+.signin{float: right;
+
+color: white;
+
+margin-top: 25px;
+position: absolute;
+top: 5px;
+right: 35px;
+}
+.navbar{border-bottom: 1px solid #a7a7a7;
+padding-bottom: 25px;
+ background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.signin a{
+
+color: white;
+padding: 5px 10px 5px 10px;
+background-color: #49bda6;
+font-size: 18px;}
+
+
+.signin a:hover{
+
+
+background-color: #136152;
+}
+.content{
+	width: 50%;
+	margin-top: 20%;
+	margin-left: 25%;
+	
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #7777775c;
+    
+
+
+
+}
+.content h1{
+
+	color: #e8fbf8;
+	font-weight: bold;
+
+
+
+}
+
+.blow{
+
+	width: 100%;
+	height: ;
+padding-bottom: 100px;
+}
+
+.sign_form{
+
+	position: fixed;
+	top: -500px;
+	left: 25%;
+	height: 70%;
+	width: 50%;
+	background-color: white;
+	z-index: 1;
+	border-radius: 25px;
+	border: 2px solid #1ca98d;
+	transition: .5s;
+}
+
+.sign_formapper{
+
+	position: fixed;
+	top: 25%;
+	left: 30%;
+	max-height: auto ;
+	width: 40%;
+	background-color: white;
+	z-index: 1;
+	border-radius: 25px;
+	border: 2px solid #1ca98d;
+	transition: .5s;
+	
+
+}
+.ferm{
+
+	
+	padding: 10px;
+}
+.sign_form a {
+	
+	position: relative;
+    top: 20px;
+}
+#close{
+
+	font-size: 35px;
+	color: #d9534f;
+}
+
+.login{
+
+	padding: 10px 20px 10px 20px;
+	background-color: #49bda6;
+	font-size: 20px;
+	border-radius: 10px;
+
+	color: white;
+}
+.login a{
+
+	
+
+	color: white;
+}
+
+.sign_up {
+
+	position: absolute;
+	top: -900px;
+	
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	border-radius: 25px;
+	z-index: 1;
+	transition: 0.5s;
+
+
+}
+.sign_in{
+
+	position: absolute;
+	top: -900px;
+	left: 25%;
+	width: 50%;
+	padding-top: 15px;
+	background-color: white;
+	text-align: center;
+	border-radius: 25px;
+	z-index: 1;
+	transition: 0.5s;
+
+}
+.signapper{
+position: absolute;
+	top: 90px;
+	
+	left: 25%;
+	width: 50%;
+	
+	background-color: white;
+	text-align: center;
+	border-radius: 25px;
+	z-index: 1;
+	transition: 0.5s;
+
+}
+.sign_upapper {
+
+	position: absolute;
+	top: 90px;
+	left: 25%;
+	background-color: white;
+	text-align: center;
+	border-radius: 25px;
+	z-index: 1;
+	transition: 0.5s;
+
+
+}
+.sign_up form{color: black;
+text-align: center;}
+
+#closeup{
+	font-size: 35px;
+	color: #d9534f;
+}
+.sign_up{
+
+	padding-top: 15px;
+}
+#id{
+	position: relative;
+	top: -50px;
+}
+
+
+
+
+@media (min-width: 960px){
+	.sign_upapper{
+	    width: 65%;
+	    left: 18%;
+	}
+}
+
+@media (max-width: 960px){
+	.sign_upapper{
+	   left: 4%;
+    right: 0px;
+    width: 82%;
+    margin: 0px 50px;
+	}
+}
+@media (max-width: 768px){
+	.sign_upapper{
+		left: 0;
+    right: 0;
+    margin: 0px 25px;
+    width: auto;
+
+	}
+}

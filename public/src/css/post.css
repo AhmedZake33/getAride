@@ -1,0 +1,31 @@
+#header{
+	color: blue;
+}
+#post{
+	resize: none;
+}
+h4{
+	color: blue
+}
+.createpost{
+
+	border-bottom: 2px solid black;
+	padding-bottom: 5px
+}
+.post{
+
+	background-color: #c3c0c0;
+	padding: 20px;
+	text-align: center;
+}
+.post p span {
+	color: white
+}
+.post .header{
+	padding:10px;
+	color:white;
+}
+.post .footer{
+	padding-top: 15px;
+	color: black
+}
